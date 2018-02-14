@@ -1,34 +1,36 @@
 <html>
 <head>
 <meta charset='utf-8'>
-  <title>Java Exercise</title>
+  <title>Java Exercise3  </title>
 </head>
 
 <body>
   <script>
-    var firstNumber = prompt('Input the first number');
-    var secondNumber = prompt('Input the second number');
+    
+    var evenOdd = prompt('Input  number');
 
-//var firstNumber=Number(firstNumber);
-//var secondNumber=Number(secondNumber);
+var evenOdd =Number(evenOdd );
 
   
 
-function integers (firstNumber,secondNumber){
 
-    if(Number.isInteger(secondNumber/firstNumber))
+
+    if(evenOdd  %2 == 0)
     {
- document.write( "Your answer is a positive integer");
+ document.write( "Your answer is an even number ");
 
 
 	    }
 
-	    else 
-	    {document.write("Your answer is a negative integer");}
+	    else  
+	    {
+        document.write("Your answer is a odd number");
+
+      }
 
 
    
-    }
+    
   </script>
 </body>
 </html>
